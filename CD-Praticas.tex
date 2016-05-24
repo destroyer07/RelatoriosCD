@@ -1,0 +1,86 @@
+\documentclass[capchap,sumarioincompleto,a4paper,12pt,ruledheader,normaltoc]{utfprtex}%
+\usepackage[utf8]{inputenc}
+\usepackage{utfprtexPropostaTCC}
+\usepackage[brazil]{babel}
+\usepackage[alf,abnt-emphasize=bf,abnt-etal-text=it,bibjustif,abnt-etal-cite=2,abnt-etal-list=0,abnt-full-initials=yes]{abntcite}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{pdflscape}
+\usepackage{circuitikz}
+\usepackage{multicol}
+\usepackage{listings}
+\usepackage{lscape}
+\usepackage{tikz}
+\usepackage[framed,numbered,autolinebreaks,useliterate]{mcode}
+\renewcommand{\floatpagefraction}{0.90}
+\renewcommand{\topfraction}{0.95}
+\renewcommand{\bottomfraction}{0.95}
+\renewcommand{\textfraction}{0.05}
+\setlength{\intextsep}{5pt}
+\setlength{\textfloatsep}{5pt}
+\setlength{\floatsep}{5pt}
+
+%---------- Autores ----------
+
+\autorA{Callebe Soares Barbsoa}
+\autorB{Rafael da Costa Bonotto}
+\autorC{Raphael Henrique Soares Machado}
+\autorD{Victor Emanuel Soares Barbosa}
+
+%---------- Título ----------
+
+\titulo{Relatórios, exercícios e fundamentação teórica relacionados a disciplina de Controle Digital}
+\local{PATO BRANCO}
+\data{2016}
+
+\begin{document}
+
+\capa
+\newpage
+\sumario
+\newpage
+\newpage
+
+%---------- (Introdução)-------
+\chapter{Introdução}
+
+%---------- Primeira Prática  ----------
+\chapter{Implementação da convolução}
+\input{Arquivos_tex/pratica_1}
+
+%---------- Segunda Prática  ----------
+\chapter{Simulação de um sistema discreto com equações diferenças}
+\input{Arquivos_tex/pratica_2}
+
+%---------- Terceira Prática  ----------
+\chapter{Modulador PWM e Sist.Cond. Sinais e ADC}
+\input{Arquivos_tex/pratica_3}
+
+%---------- Quarta Prática  ----------
+\chapter{Amostragem de sinais e análise em frequencia de sinais amostrados}
+\input{Arquivos_tex/pratica_4}
+
+%---------- Quinta Prática  ----------
+\chapter{Controlador PID}
+\input{Arquivos_tex/pratica_5}
+
+%---------- Sexta Prática  ----------
+\chapter{Controlador Repetitivo}
+\input{Arquivos_tex/pratica_6}
+
+%---------- Sétima e oitava prática - 19/04/2016 ----------
+\chapter{Transformada Z}
+\input{Arquivos_tex/pratica_7}
+
+\chapter{Transformada Z inversa}
+\input{Arquivos_tex/pratica_8}
+
+%---------- (Conclusão)--------
+\chapter{Conclusão}
+
+
+%---------- Referencias ----------
+\bibliography{referencias}
+%---------- Fim do documento ----------
+\end{document}
