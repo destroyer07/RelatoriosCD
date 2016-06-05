@@ -86,11 +86,17 @@ Obtendo como saída o gráfico da Figura \ref{saida_ex1_pr_1}
     \label{saida_ex1_pr_1}
 \end{figure}
 
+Observa-se que os intervalos de simulação para uma convolução teórica deveria ser estabelecido entre $- \infty$ e $+ \infty$, com uma valor de passo unitário. Porém computacionalmente esses intervalos são impraticáveis, necessitando de uma adequação nos valores de simulação.
+
+Como os sinais $h$ e $x$  possuem valores diferentes de zero apenas a partir de $n~=~0$ até $n~=~3$ se faz necessário convolucionar apenas neste intervalo. O numero total de pontos convolucionados é dado pela soma dos valores no intervalo da convolução dos dois sinais, sendo portanto no total 8 pontos.  
+
+A figura \ref{saida_ex1_pr_1} apresenta o resultado da simulação de forma coerente com a teoria, e portanto comprova a eficacia do algoritmo desenvolvido. 
+
 \subsection{Exercício 2}
 O código implementado em Matlab para a resolução do exercício 2 está logo abaixo:
 \lstinputlisting{Arquivos_tex/Aula_3_Exercicio_2.m}
 
-Obtendo como saída os gráfico das Figuras \ref{saida_ex2_pr_1_L_A}, \ref{saida_ex2_pr_1_L_B} e \ref{saida_ex2_pr_1_L_C}.
+Obtendo como saída os gráfico das Figuras \ref{saida_ex2_pr_1_L_A}, \ref{saida_ex2_pr_1_L_B} e \ref{saida_ex2_pr_1_L_C}. 
 
 \begin{figure}[!ht]
 	\centering
@@ -113,4 +119,6 @@ Obtendo como saída os gráfico das Figuras \ref{saida_ex2_pr_1_L_A}, \ref{saida
     \label{saida_ex2_pr_1_L_C}
 \end{figure}
 
-\textcolor{red}{COMENTAR E DISCUTIR RESULTADOS}
+Neste exercício deve se ter umas atenção especial em relação ao passo da convolução, ou seja a quantidade de pontos simulados entre valores inteiros.  
+
+Como temos um período de amostragem de $0,2$ logo temos 5 pontos simulados  entre valores inteiros. Assim se fixarmos o numero de períodos e variarmos o número de amostragem variamos também o número  de pontos a serem convolucionados. Como a convolução pode ser representada pela soma na forma da equação \ref{Convolucao_discreto}, logo a amplitude de cada ponto $n$ do sinal convolucionado depende do numero de amostras realizado. Para que se possa ter um sinal de amplitude normalizada independente do período de amostragem,  o sinal convolucionado é dividido pelo numero de amostras entre intervalo entre dois inteiros, ou numero de amostras por ciclo.
