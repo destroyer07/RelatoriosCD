@@ -1,0 +1,51 @@
+\select@language {portuges}
+\select@language {portuges}
+\contentsline {chapter}{\numberline {1}Introdução}{3}
+\contentsline {chapter}{\numberline {2}Implementação da convolução}{4}
+\contentsline {section}{\numberline {2.1}Objetivos}{4}
+\contentsline {section}{\numberline {2.2}Fundamentação Teórica}{4}
+\contentsline {subsection}{\numberline {2.2.1}Integral de convolução}{4}
+\contentsline {subsection}{\numberline {2.2.2}Soma de convolução}{4}
+\contentsline {section}{\numberline {2.3}Procedimentos}{5}
+\contentsline {subsection}{\numberline {2.3.1}Exercício 1}{5}
+\contentsline {subsection}{\numberline {2.3.2}Exercício 2}{5}
+\contentsline {section}{\numberline {2.4}Resultados e discussões}{5}
+\contentsline {subsection}{\numberline {2.4.1}Exercício 1}{5}
+\contentsline {subsubsection}{\numberline {2.4.1.1}C)}{5}
+\contentsline {subsection}{\numberline {2.4.2}Exercício 2}{6}
+\contentsline {chapter}{\numberline {3}Simulação de um sistema discreto com equações diferenças}{14}
+\contentsline {section}{\numberline {3.1}Objetivos}{14}
+\contentsline {section}{\numberline {3.2}Fundamentação Teórica}{14}
+\contentsline {section}{\numberline {3.3}Procedimentos}{14}
+\contentsline {section}{\numberline {3.4}Resultados e discussões}{14}
+\contentsline {chapter}{\numberline {4}Modulador PWM e Sist.Cond. Sinais e ADC}{19}
+\contentsline {section}{\numberline {4.1}Objetivos}{19}
+\contentsline {section}{\numberline {4.2}Fundamentação Teórica}{19}
+\contentsline {section}{\numberline {4.3}Procedimentos}{19}
+\contentsline {section}{\numberline {4.4}Resultados e discursões}{19}
+\contentsline {chapter}{\numberline {5}Amostragem de sinais e análise em frequencia de sinais amostrados}{20}
+\contentsline {section}{\numberline {5.1}Objetivos}{20}
+\contentsline {section}{\numberline {5.2}Fundamentação Teórica}{20}
+\contentsline {section}{\numberline {5.3}Procedimentos}{20}
+\contentsline {section}{\numberline {5.4}Resultados e discursões}{20}
+\contentsline {chapter}{\numberline {6}Controlador PID}{21}
+\contentsline {section}{\numberline {6.1}Objetivos}{21}
+\contentsline {section}{\numberline {6.2}Fundamentação Teórica}{21}
+\contentsline {section}{\numberline {6.3}Procedimentos}{21}
+\contentsline {section}{\numberline {6.4}Resultados e discursões}{21}
+\contentsline {chapter}{\numberline {7}Controlador Repetitivo}{22}
+\contentsline {section}{\numberline {7.1}Objetivos}{22}
+\contentsline {section}{\numberline {7.2}Fundamentação Teórica}{22}
+\contentsline {section}{\numberline {7.3}Procedimentos}{22}
+\contentsline {section}{\numberline {7.4}Resultados e discursões}{22}
+\contentsline {chapter}{\numberline {8}Transformada Z}{23}
+\contentsline {section}{\numberline {8.1}Objetivos}{23}
+\contentsline {section}{\numberline {8.2}Fundamentação Teórica}{23}
+\contentsline {section}{\numberline {8.3}Procedimentos}{23}
+\contentsline {section}{\numberline {8.4}Resultados e discursões}{23}
+\contentsline {chapter}{\numberline {9}Transformada Z inversa}{24}
+\contentsline {section}{\numberline {9.1}Objetivos}{24}
+\contentsline {section}{\numberline {9.2}Fundamentação Teórica}{24}
+\contentsline {section}{\numberline {9.3}Procedimentos}{24}
+\contentsline {section}{\numberline {9.4}Resultados e discursões}{24}
+\contentsline {chapter}{\numberline {10}Conclusão}{25}
