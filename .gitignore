@@ -1,1 +1,7 @@
 CD-Praticas.toc
+*.log
+*.db
+*.gz
+CD-Praticas.log
+*.aux
+Thumbs.db
