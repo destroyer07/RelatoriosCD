@@ -5,3 +5,10 @@ CD-Praticas.toc
 CD-Praticas.log
 *.aux
 Thumbs.db
+*.aux
+*.log
+*.gz
+*.db
+*.gz
+*.log
+CD-Praticas.aux
