@@ -68,6 +68,7 @@ Através da equação (\ref{pr_2_4}) aplica-se o método da equação de diferen
 
 \begin{equation}
 y(k) =  1,7y(k-1) - 0,854y(k-2) + 0,1y(k-3) + 0,27x(k-1) - 0,216x(k-2)
+\label{pr_2_5}
 \end{equation}
 
 O código implementado em Matlab está mostrado abaixo:
@@ -84,4 +85,8 @@ Obtendo como saída o gráfico da Figura \ref{saida_ex2_pr_2}.
   \end{figure}
 \end{landscape}
 
-\textcolor{red}{COMENTAR E DISCUTIR RESULTADOS}
+A transformada $z$ é uma ferramenta comumente utilizada para análise e síntese de sistemas de controle em tempo discreto. Análoga a transformada de Laplace, possui a equação de diferenças como ferramenta matemática para a obtenção da resposta do sistema a uma dada entrada. 
+
+Como a natureza exprime sistemas variáveis no tempo de forma contínua, a transformada inversa $z$ permitiu através do método de equações de diferenças fornece a saída em tempo discreto fazendo uso do tempo de amostragem que simule um sistema pseudo-contínuo.
+
+Este método recursivo possibilitou a implementação digital, conforme o exercício apresentado, de forma simplista utilizando laço de controle e vetores. Na Figura \ref{saida_ex2_pr_2}, dado a entrada de uma onda quadrada, o PID, a planta e o sensor interagem na malha fornecendo uma resposta com baixo sobresinal e rápido tempo de assentamento.

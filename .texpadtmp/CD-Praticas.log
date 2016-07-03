@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.4.11)  3 JUL 2016 17:04
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.4.11)  3 JUL 2016 17:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -979,18 +979,18 @@ LaTeX Font Warning: Font shape `EU1/phv/bx/n' undefined
 
 (/Users/rafaelbonotto/Documents/GitHub/RelatoriosCD/.texpadtmp/CD-Praticas.toc [1
 
-] [2])
+])
 \tf@toc=\write4
 \openout4 = `CD-Praticas.toc'.
 
- [3]
+ [2]
 Capítulo 1.
-[4
+[3
 
 
 ]
 Capítulo 2.
-(./Arquivos_tex/pratica_1.tex [5
+(./Arquivos_tex/pratica_1.tex [4
 
 ]
 File: Imagens/Execicio1.PNG Graphic file (type QTm)
@@ -999,69 +999,107 @@ File: Imagens/Execicio1.PNG Graphic file (type QTm)
 LaTeX Font Warning: Font shape `EU1/phv/m/it' undefined
 (Font)              using `EU1/phv/m/n' instead on input line 72.
 
-[6] (./Arquivos_tex/Aula_3_Exercicio_1.m [7])
+[5] (./Arquivos_tex/Aula_3_Exercicio_1.m [6])
 File: Imagens/Aula_3_exercicio1_LetraC.eps Graphic file (type eps)
- <Imagens/Aula_3_exercicio1_LetraC.eps> [8] (./Arquivos_tex/Aula_3_Exercicio_2.m [9] [10] [11] [12])
+ <Imagens/Aula_3_exercicio1_LetraC.eps> [7] (./Arquivos_tex/Aula_3_Exercicio_2.m [8] [9] [10] [11])
 File: Imagens/Aula_3_exercicio2_LetraA.eps Graphic file (type eps)
  <Imagens/Aula_3_exercicio2_LetraA.eps>
 File: Imagens/Aula_3_exercicio2_LetraB.eps Graphic file (type eps)
  <Imagens/Aula_3_exercicio2_LetraB.eps>
 File: Imagens/Aula_3_exercicio2_LetraC.eps Graphic file (type eps)
- <Imagens/Aula_3_exercicio2_LetraC.eps>) [13] [14] [15]
+ <Imagens/Aula_3_exercicio2_LetraC.eps>) [12] [13] [14]
 Capítulo 3.
-(./Arquivos_tex/pratica_2.tex [16
+(./Arquivos_tex/pratica_2.tex [15
 
 ]
 File: Imagens/Execicio1_pr2.PNG Graphic file (type QTm)
  <use  "Imagens/Execicio1_pr2.PNG" >
 
-LaTeX Warning: Reference `pr_2_5' on page 17 undefined on input line 67.
+LaTeX Warning: Reference `pr_2_5' on page 16 undefined on input line 67.
 
-[17] (./Arquivos_tex/Aula_5_Exercicio_2.m [18]) [19]
+[16] (./Arquivos_tex/Aula_5_Exercicio_2.m [17]) [18]
 File: Imagens/Aula_5_exercicio2.eps Graphic file (type eps)
  <Imagens/Aula_5_exercicio2.eps>
 Overfull \hbox (4.7103pt too wide) in paragraph at lines 81--82
  [][] 
  []
 
-[20
+[19
 
-]) [21
+]) [20
 
 ]
 Capítulo 4.
-(./Arquivos_tex/pratica_3.tex
+(./Arquivos_tex/pratica_3.tex) [21
+
+]
+Capítulo 5.
+[22
+
+]
+Capítulo 6.
+(./Arquivos_tex/pratica_4.tex) [23
+
+]
+Capítulo 7.
+(./Arquivos_tex/pratica_5.tex
 File: Imagens/PID.eps Graphic file (type eps)
- <Imagens/PID.eps> [22
+ <Imagens/PID.eps> [24
 
 ]
 Overfull \hbox (2.96971pt too wide) in paragraph at lines 35--38
 []\EU1/pcr/m/n/12 Controlador: PID ‘Digital’ (equação de diferenças) Saturação do PID (Sat = $\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 98 \OML/cmm/m/it/12 V[]$\EU1/pcr/m/n/12 ) 
  []
 
-) [23]
-Capítulo 5.
-(./Arquivos_tex/pratica_4.tex) [24
 
-]
-Capítulo 6.
-(./Arquivos_tex/pratica_5.tex) [25
+LaTeX Warning: File `Imagens/Exercicio1_PID_SimulinkII.pdf' not found on input line 63.
 
-]
-Capítulo 7.
+./Arquivos_tex/pratica_5.tex:63: Unable to load picture or PDF file 'Imagens/Exercicio1_PID_SimulinkII.pdf'.
+<to be read again> 
+                   }
+l.63 ....3]{Imagens/Exercicio1_PID_SimulinkII.pdf}
+                                                  
+The requested image couldn't be read because
+it was not a recognized image format.
+
+File: Imagens/Exercicio1_PID_SimulinkII.pdf Graphic file (type QTm)
+<use  "Imagens/Exercicio1_PID_SimulinkII.pdf" >
+./Arquivos_tex/pratica_5.tex:63: Unable to load picture or PDF file 'Imagens/Exercicio1_PID_SimulinkII.pdf'.
+<to be read again> 
+                   \GXT@clipend 
+l.63 ....3]{Imagens/Exercicio1_PID_SimulinkII.pdf}
+                                                  
+The requested image couldn't be read because
+it was not a recognized image format.
+
+
+LaTeX Warning: File `Imagens/Exercicio1_PID_Simulink.pdf' not found on input line 72.
+
+./Arquivos_tex/pratica_5.tex:72: Unable to load picture or PDF file 'Imagens/Exercicio1_PID_Simulink.pdf'.
+<to be read again> 
+                   }
+l.72 ...= .3]{Imagens/Exercicio1_PID_Simulink.pdf}
+                                                  
+The requested image couldn't be read because
+it was not a recognized image format.
+
+File: Imagens/Exercicio1_PID_Simulink.pdf Graphic file (type QTm)
+<use  "Imagens/Exercicio1_PID_Simulink.pdf" >
+./Arquivos_tex/pratica_5.tex:72: Unable to load picture or PDF file 'Imagens/Exercicio1_PID_Simulink.pdf'.
+<to be read again> 
+                   \GXT@clipend 
+l.72 ...= .3]{Imagens/Exercicio1_PID_Simulink.pdf}
+                                                  
+The requested image couldn't be read because
+it was not a recognized image format.
+
+) [25]
+Capítulo 8.
 (./Arquivos_tex/pratica_6.tex) [26
 
 ]
-Capítulo 8.
-(./Arquivos_tex/pratica_7.tex) [27
-
-]
 Capítulo 9.
-(./Arquivos_tex/pratica_8.tex) [28
-
-]
-Capítulo 10.
-(/Users/rafaelbonotto/Documents/GitHub/RelatoriosCD/.texpadtmp/CD-Praticas.bbl [29
+(/Users/rafaelbonotto/Documents/GitHub/RelatoriosCD/.texpadtmp/CD-Praticas.bbl [27
 
 ]
 
@@ -1069,7 +1107,7 @@ LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
 ) 
 AED: lastpage setting LastPage
-[30
+[28
 
 ]
 +===================================================================+
@@ -1093,11 +1131,11 @@ LaTeX Warning: There were undefined references.
  ) 
 Here is how much of TeX's memory you used:
  35023 strings out of 493706
- 757556 string characters out of 6145769
+ 757634 string characters out of 6145769
  931603 words of memory out of 5000000
- 37801 multiletter control sequences out of 15000+600000
+ 37805 multiletter control sequences out of 15000+600000
  11565 words of font info for 60 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  62i,11n,94p,10432b,1686s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/rafaelbonotto/Documents/GitHub/RelatoriosCD/.texpadtmp/CD-Praticas.pdf (31 pages).
+Output written on /Users/rafaelbonotto/Documents/GitHub/RelatoriosCD/.texpadtmp/CD-Praticas.pdf (29 pages).
