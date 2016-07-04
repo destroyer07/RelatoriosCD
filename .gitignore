@@ -12,3 +12,5 @@ Thumbs.db
 *.gz
 *.log
 CD-Praticas.aux
+*.tmp
+CD-Praticas.pdf
