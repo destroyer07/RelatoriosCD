@@ -1,4 +1,5 @@
 \section{Objetivos}
+O objetivo principal desta prática é tanto a dedução da equação em tempo discreto de um PID, como a sua implementação prática em ambiente Simulink\textregistered e em código básico de Matlab\textregistered.
 
 \section{Fundamentação Teórica}
 
@@ -73,6 +74,16 @@ Considerando o sistema descrito no exercício 2, desenvolva um script em Matlab 
 		\label{fig:Exercicio1_PID_Simulink}
 	\end{figure}
 	
+	A Figura \ref{fig:PIDExercicioI} apresenta o resultado do circuito deste exercício simulado. As curvas contidas na Figura \ref{fig:PIDExercicioI} são referentes aos 5 sinais na entrada do bloco \emph{scope}, sendo: curva em amarelo representa o sinal de referência, curva em roxo representa a  resposta do sistema em malha fechada com PID, curva em azul a ação proporcional do PID, curva em vermelho a ação integrativa do PID e por fim a curva verde representa ação derivativa do PID.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale = .4]{Imagens/PIDExercicioI.pdf}
+		\caption{Resultado da Simulação do Exercício 1 - PID}
+		\label{fig:PIDExercicioI}
+	\end{figure}
+	
+	
 \subsection{Exercício 2}
 	Para a obtenção da função transferência do PID de tempo discreto usando o método de discretização \emph{Forward} se parte da equação básica do PID, definida pela Equação \ref{PIDEmTempo}.
 	
@@ -105,4 +116,65 @@ Considerando o sistema descrito no exercício 2, desenvolva um script em Matlab 
 	\label{PIDDiscreto}
 	\end{equation}
 	
-			
+	Para que se possa eliminar o somatório da integral, que torna a implementação prática inaplicável, pode-se utilizar a transformada \emph{Z}. Logo pelas Equações \ref{transformadaZ1}, \ref{transformadaZ2} e \ref{transformadaZ3}.
+	
+	\begin{eqnarray}
+		Z \{ e_k \} = E(z) \\
+		Z \{ K \cdot e_k \} = K \cdot E(z)
+		\label{transformadaZ1}
+	\end{eqnarray}
+	
+	\begin{eqnarray}
+		Z \{ e_{k-1} \} = z^{-1} E(z) \\
+		Z \{ K_D ( e_k - e_{k-1}) \} = K_D(1-z^{-1}) E (z)
+		\label{transformadaZ2}
+	\end{eqnarray}
+	
+	\begin{eqnarray}
+		Z \left\{ \sum_{i=0}^{k} f_i \right\} = \frac{1}{1 - z^{-1}} Z{f_i} \\
+		Z \left\{ K_I \sum_{i = 0}^{k} e_i \right\} = K_I \frac{1}{1 - z^{-1}} E(z) \\
+		\label{transformadaZ3}		
+	\end{eqnarray}
+	
+	Logo temos a transformada Z para o PID se torna a Equação \ref{transformadaPIDZ}.
+	
+	\begin{equation}
+		U(z) = K \left( E(z) + \frac{T}{T_i} \frac{1}{1 - z^{-1}} E(z) \frac{T_d}{T} (1 - z^{-1}) E(z) \right)
+		\label{transformadaPIDZ}
+	\end{equation} 
+	
+	Por fim tem-se pela propriedade do deslocamento a Equação \ref{PIDFinal}, que defini a equação discretizada do PID.
+	
+	\begin{eqnarray}
+		u_P (k) = K_P~e(k) \\
+		u_I (k) = K_I~e(k) + u_I~(k-1) \\
+		u_D (k) = K_D~(e(k) - e(K - 1)) \\
+		u_{PID} = u_P(k) + u_I (k) + u_D(k)
+		\label{PIDFinal}	
+	\end{eqnarray}
+	
+	Logo para se repetir o mesmo procedimento feito no exercício 2 aplicando a função do PID discretizada utilizando o método de \emph{Forward}  para parcela integral basta apenas
+	modificar o valor do ganho $K_I$, já que ele é o único fator modificado pela mudança no método de discretização da integral. Portanto a figura \ref{fig:PIDExercicioII} apresenta o resultado da simulação do exercício 2, sendo que as curvas contidas nesta figura tem a mesma representação daquelas contidas  na Figura \ref{fig:PIDExercicioI}. 
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale = .4]{Imagens/PIDExercicioII.pdf}
+		\caption{Resultado da Simulação do Exercício 2 - PID}
+		\label{fig:PIDExercicioII}
+	\end{figure}
+	
+	Os valores de $K$, $T_i$ e $T_d$ continuam sendo os mesmo daqueles usados no Exercício 1, sendo que o que muda neste exercício é a equação que defini a parcela $K_i$.
+	
+	\subsection{Exercício 3}
+	
+	Para a resolução do Exercício 3 é implementado em Matlab o código abaixo:
+	\lstinputlisting{Arquivos_tex/Aula_6.m}
+	
+	O resultado desta simulação esta expressa na Figura \ref{fig:Exercicio3}.  
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale = .4]{Imagens/ExercicioIII.eps}
+		\caption{Simulação Exercicio 3 - Resposta em Malha Fechada}
+		\label{fig:Exercicio3}
+	\end{figure}
