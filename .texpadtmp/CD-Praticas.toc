@@ -23,26 +23,30 @@
 \contentsline {section}{\numberline {4.2}Fundamentação Teórica}{21}
 \contentsline {section}{\numberline {4.3}Procedimentos}{21}
 \contentsline {section}{\numberline {4.4}Resultados e discursões}{21}
-\contentsline {chapter}{\numberline {5}Amostragem de sinais e análise em Frequência de sinais Amostrados}{22}
-\contentsline {chapter}{\numberline {6}Amostragem de sinais e análise em frequência de sinais amostrados}{23}
+\contentsline {chapter}{\numberline {5}Amostragem de Sinais e Análise em Frequência de Sinais Amostrados}{22}
+\contentsline {section}{\numberline {5.1}Objetivos}{22}
+\contentsline {section}{\numberline {5.2}Fundamentação Teórica}{22}
+\contentsline {section}{\numberline {5.3}Procedimentos}{22}
+\contentsline {section}{\numberline {5.4}Resultados e discursões}{22}
+\contentsline {chapter}{\numberline {6}Controlador PID}{23}
 \contentsline {section}{\numberline {6.1}Objetivos}{23}
 \contentsline {section}{\numberline {6.2}Fundamentação Teórica}{23}
 \contentsline {section}{\numberline {6.3}Procedimentos}{23}
-\contentsline {section}{\numberline {6.4}Resultados e discursões}{23}
-\contentsline {chapter}{\numberline {7}Controlador PID}{24}
-\contentsline {section}{\numberline {7.1}Objetivos}{24}
-\contentsline {section}{\numberline {7.2}Fundamentação Teórica}{24}
-\contentsline {section}{\numberline {7.3}Procedimentos}{24}
-\contentsline {subsection}{\numberline {7.3.1}Exercício 1}{24}
-\contentsline {subsection}{\numberline {7.3.2}Exercício 2}{24}
-\contentsline {subsubsection}{\numberline {7.3.2.1}Repita o Exercício 1 para esta função de transferência comparando os resultados de simulação de ambos os casos para os mesmos ganhos.}{25}
-\contentsline {subsubsection}{\numberline {7.3.2.2}Inclua saturação na ação de controle em 150\% da referência e analise o comportamento do sistema de controle}{25}
-\contentsline {subsection}{\numberline {7.3.3}Exercício 3}{25}
-\contentsline {section}{\numberline {7.4}Resultados e discursões}{25}
-\contentsline {subsection}{\numberline {7.4.1}Exercício 1}{25}
-\contentsline {chapter}{\numberline {8}Controlador Repetitivo}{26}
-\contentsline {section}{\numberline {8.1}Objetivos}{26}
-\contentsline {section}{\numberline {8.2}Fundamentação Teórica}{26}
-\contentsline {section}{\numberline {8.3}Procedimentos}{26}
-\contentsline {section}{\numberline {8.4}Resultados e discursões}{26}
-\contentsline {chapter}{\numberline {9}Conclusão}{27}
+\contentsline {subsection}{\numberline {6.3.1}Exercício 1}{23}
+\contentsline {subsection}{\numberline {6.3.2}Exercício 2}{23}
+\contentsline {subsubsection}{\numberline {6.3.2.1}Repita o Exercício 1 para esta função de transferência comparando os resultados de simulação de ambos os casos para os mesmos ganhos.}{24}
+\contentsline {subsubsection}{\numberline {6.3.2.2}Inclua saturação na ação de controle em 150\% da referência e analise o comportamento do sistema de controle}{24}
+\contentsline {subsection}{\numberline {6.3.3}Exercício 3}{24}
+\contentsline {section}{\numberline {6.4}Resultados e discursões}{24}
+\contentsline {subsection}{\numberline {6.4.1}Exercício 1}{24}
+\contentsline {chapter}{\numberline {7}Controlador Repetitivo}{26}
+\contentsline {section}{\numberline {7.1}Objetivos}{26}
+\contentsline {section}{\numberline {7.2}Fundamentação Teórica}{26}
+\contentsline {section}{\numberline {7.3}Procedimento e resolução}{26}
+\contentsline {subsection}{\numberline {7.3.1}Circuito de condicionamento de sinais}{28}
+\contentsline {subsection}{\numberline {7.3.2}ADC de 10 bits}{28}
+\contentsline {subsection}{\numberline {7.3.3}Controlador repetitivo}{28}
+\contentsline {subsection}{\numberline {7.3.4}Proporcional-Integral-Derivativo (PID)}{29}
+\contentsline {subsection}{\numberline {7.3.5}PWM}{29}
+\contentsline {section}{\numberline {7.4}Resultados e discussões}{30}
+\contentsline {chapter}{\numberline {8}Conclusão}{31}
