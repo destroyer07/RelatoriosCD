@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.4.11)  3 JUL 2016 17:36
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.4.11)  3 JUL 2016 20:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1034,72 +1034,45 @@ Capítulo 4.
 
 ]
 Capítulo 5.
-[22
+(./Arquivos_tex/pratica_4.tex) [22
 
 ]
 Capítulo 6.
-(./Arquivos_tex/pratica_4.tex) [23
-
-]
-Capítulo 7.
 (./Arquivos_tex/pratica_5.tex
 File: Imagens/PID.eps Graphic file (type eps)
- <Imagens/PID.eps> [24
+ <Imagens/PID.eps> [23
 
 ]
 Overfull \hbox (2.96971pt too wide) in paragraph at lines 35--38
 []\EU1/pcr/m/n/12 Controlador: PID ‘Digital’ (equação de diferenças) Saturação do PID (Sat = $\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 98 \OML/cmm/m/it/12 V[]$\EU1/pcr/m/n/12 ) 
  []
 
-
-LaTeX Warning: File `Imagens/Exercicio1_PID_SimulinkII.pdf' not found on input line 63.
-
-./Arquivos_tex/pratica_5.tex:63: Unable to load picture or PDF file 'Imagens/Exercicio1_PID_SimulinkII.pdf'.
-<to be read again> 
-                   }
-l.63 ....3]{Imagens/Exercicio1_PID_SimulinkII.pdf}
-                                                  
-The requested image couldn't be read because
-it was not a recognized image format.
-
 File: Imagens/Exercicio1_PID_SimulinkII.pdf Graphic file (type QTm)
 <use  "Imagens/Exercicio1_PID_SimulinkII.pdf" >
-./Arquivos_tex/pratica_5.tex:63: Unable to load picture or PDF file 'Imagens/Exercicio1_PID_SimulinkII.pdf'.
-<to be read again> 
-                   \GXT@clipend 
-l.63 ....3]{Imagens/Exercicio1_PID_SimulinkII.pdf}
-                                                  
-The requested image couldn't be read because
-it was not a recognized image format.
-
-
-LaTeX Warning: File `Imagens/Exercicio1_PID_Simulink.pdf' not found on input line 72.
-
-./Arquivos_tex/pratica_5.tex:72: Unable to load picture or PDF file 'Imagens/Exercicio1_PID_Simulink.pdf'.
-<to be read again> 
-                   }
-l.72 ...= .3]{Imagens/Exercicio1_PID_Simulink.pdf}
-                                                  
-The requested image couldn't be read because
-it was not a recognized image format.
-
 File: Imagens/Exercicio1_PID_Simulink.pdf Graphic file (type QTm)
-<use  "Imagens/Exercicio1_PID_Simulink.pdf" >
-./Arquivos_tex/pratica_5.tex:72: Unable to load picture or PDF file 'Imagens/Exercicio1_PID_Simulink.pdf'.
-<to be read again> 
-                   \GXT@clipend 
-l.72 ...= .3]{Imagens/Exercicio1_PID_Simulink.pdf}
-                                                  
-The requested image couldn't be read because
-it was not a recognized image format.
-
-) [25]
-Capítulo 8.
-(./Arquivos_tex/pratica_6.tex) [26
+ <use  "Imagens/Exercicio1_PID_Simulink.pdf" >) [24] [25]
+Capítulo 7.
+(./Arquivos_tex/pratica_6.tex
+File: Imagens/Relatorio6/SistemaCompleto.png Graphic file (type QTm)
+ <use  "Imagens/Relatorio6/SistemaCompleto.png" > [26
 
 ]
-Capítulo 9.
-(/Users/rafaelbonotto/Documents/GitHub/RelatoriosCD/.texpadtmp/CD-Praticas.bbl [27
+File: Imagens/Relatorio6/quadrada_relatorio6.eps Graphic file (type eps)
+ <Imagens/Relatorio6/quadrada_relatorio6.eps>
+File: Imagens/Relatorio6/Sensor.png Graphic file (type QTm)
+ <use  "Imagens/Relatorio6/Sensor.png" > [27]
+File: Imagens/Relatorio6/ADC.png Graphic file (type QTm)
+ <use  "Imagens/Relatorio6/ADC.png" >
+File: Imagens/Relatorio6/Repetitivo.png Graphic file (type QTm)
+ <use  "Imagens/Relatorio6/Repetitivo.png" >
+File: Imagens/Relatorio6/PID.png Graphic file (type QTm)
+ <use  "Imagens/Relatorio6/PID.png" > [28]
+File: Imagens/Relatorio6/PWM.png Graphic file (type QTm)
+ <use  "Imagens/Relatorio6/PWM.png" >
+File: Imagens/relatorio6/triangular_relatorio6.eps Graphic file (type eps)
+ <Imagens/relatorio6/triangular_relatorio6.eps> [29]) [30]
+Capítulo 8.
+(/Users/rafaelbonotto/Documents/GitHub/RelatoriosCD/.texpadtmp/CD-Praticas.bbl [31
 
 ]
 
@@ -1107,7 +1080,7 @@ LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
 ) 
 AED: lastpage setting LastPage
-[28
+[32
 
 ]
 +===================================================================+
@@ -1130,12 +1103,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 35023 strings out of 493706
- 757634 string characters out of 6145769
+ 35053 strings out of 493706
+ 758131 string characters out of 6145769
  931603 words of memory out of 5000000
- 37805 multiletter control sequences out of 15000+600000
+ 37821 multiletter control sequences out of 15000+600000
  11565 words of font info for 60 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  62i,11n,94p,10432b,1686s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/rafaelbonotto/Documents/GitHub/RelatoriosCD/.texpadtmp/CD-Praticas.pdf (29 pages).
+Output written on /Users/rafaelbonotto/Documents/GitHub/RelatoriosCD/.texpadtmp/CD-Praticas.pdf (33 pages).
