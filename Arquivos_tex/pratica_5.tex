@@ -6,7 +6,7 @@
 \subsection{Exercício 1}
 Considere um sistema em malha fechada com PID T(z) sendo:
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\centering
 	\includegraphics[scale = .5, angle =-90]{Imagens/PID.eps}
 	\caption{Sistema - Exercício 1}
@@ -55,21 +55,54 @@ Considerando o sistema descrito no exercício 2, desenvolva um script em Matlab 
 \section{Resultados e discursões}
 
 \subsection{Exercício 1}
-
 	A partir do diagrama da Figura \ref{fig:ExercicioPID}, monta-se o circuito no Simulink\textregistered. A Figura \ref{fig:Exercicio1_PID_SimulinkII} apresenta o dado circuito implementado.
 
-	\begin{figure}[!th]
+	\begin{figure}[H]
 		\centering
-		\includegraphics[scale = .3]{Imagens/Exercicio1_PID_SimulinkII.pdf}
+		\includegraphics[scale = .4]{Imagens/Exercicio1_PID_SimulinkII.pdf}
 		\caption{Diagrama de Blocos Exercício 1}
 		\label{fig:Exercicio1_PID_SimulinkII}
 	\end{figure}
 	
-	 A Figura \ref{fig:Exercicio1_PID_Simulink} está apresentado o circuito PID implementado. 
+	 A Figura \ref{fig:Exercicio1_PID_Simulink} está apresentado o circuito PID implementado. Os valores $K_P$, $K_D$ e $K_I$ são obtidos a partir dos método de projeto Ziegler-Nichols usando o procedimento 2. Ou seja foi obtido um ganho critico em malha fechada de modo que provoque um sinal de saída com oscilações constantes, e com base neste ganho e no período das oscilações constantes se defini os valores dos ganhos do PID.
 	
-	\begin{figure}[!th]
+	\begin{figure}[H]
 		\centering
-		\includegraphics[scale = .3]{Imagens/Exercicio1_PID_Simulink.pdf}
+		\includegraphics[scale = .4]{Imagens/Exercicio1_PID_Simulink.pdf}
 		\caption{Diagrama de Blocos Exercício 1 - PID}
 		\label{fig:Exercicio1_PID_Simulink}
 	\end{figure}
+	
+\subsection{Exercício 2}
+	Para a obtenção da função transferência do PID de tempo discreto usando o método de discretização \emph{Forward} se parte da equação básica do PID, definida pela Equação \ref{PIDEmTempo}.
+	
+	\begin{equation}
+		u(t) = K \left( e(t) + \frac{1}{T_{i}} \int_0^t e(t) dt + T_d \frac{d}{dt} e(t) \right) 
+		\label{PIDEmTempo}
+	\end{equation}
+	
+	Seguindo a discretização, tornando $u_k = u(k)$ é possível aproximar a parcela de erro pela Equação \ref{erro}, a parcela integral pela Equação \ref{integral}, proveniente da discretização \emph{Forward}. E por fim a parcela derivativa pela Equação \ref{derivada}.
+	
+	\begin{equation}
+		e(t) \rightarrow e_k
+		\label{erro}
+	\end{equation}
+		
+	\begin{equation}
+		\int_0^t e(t) dt \rightarrow \sum_{i=0}^{k} e_i T
+		\label{integral}
+	\end{equation}
+	
+	\begin{equation}
+		\frac{d}{dt} e(t) \rightarrow \frac{e_k - e_{k-1}}{T}
+		\label{derivada}
+	\end{equation}
+	
+	Logo pode-se definir a forma discreta do PID pela Equação \ref{PIDDiscreto}.
+	 
+	\begin{equation}
+	u_k = K \left( e_k + \frac{T}{T_i} \sum_{i=0}^{k} (e_i) + \frac{T_d}{T}(e_k - e_{k-1})\right)
+	\label{PIDDiscreto}
+	\end{equation}
+	
+			
